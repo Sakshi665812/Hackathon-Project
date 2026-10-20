@@ -1,2 +1,3 @@
-This repository will be used for OSI Hackathon
-Thi is from Sakshi's laptop. 
+This repository will be used for OSI Hackathon.
+
+This message is by sakshi
