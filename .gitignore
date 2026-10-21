@@ -1,0 +1,14 @@
+.venv/
+.cache/
+.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.streamlit/secrets.toml
+data/catalog/*.sqlite3
+data/catalog/*.sqlite3-*
+artifacts/

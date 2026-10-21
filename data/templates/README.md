@@ -1,0 +1,5 @@
+# Experimental measurement template
+
+`pressure_measurements.csv` is a blank template for collecting measured device responses, one pressure–capacitance point per row. It is research reference data, **not an input accepted by the current optimizer**. The operational catalogue uses the JSON schema in `data/catalog/README.md`.
+
+Use one `device_id` per independently specified formulation/device and one `curve_id` per branch/cycle/measurement condition. Preserve replicate identity in curve IDs or add a replicate column. Pressure is compression pressure in kPa; capacitance and the matched zero-pressure baseline are in pF. `branch` distinguishes loading and unloading. Do not substitute a baseline from another device or measurement condition. Record actual frequency, temperature, source figure/table, paper URL, and any digitization or unit-conversion notes. Leave genuinely missing values blank; never infer measurements from the optimization output. For sources reporting only ΔC or ΔC/C₀, preserve those original response types in an extended collection table instead of inventing absolute capacitance.
